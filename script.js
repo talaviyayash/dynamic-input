@@ -27,12 +27,11 @@ function makeDaynamic(obj , lableToINput){
             formContainerElement.innerHTML =formContainerElement.innerHTML+ stringInput
           break;
         default:
-          // code block
       }
 }
 
 
-makeDaynamic({type : "radio",checked:"true" , placename:"click it", value:"2018-07-22",id:"red",name:"red",placeholder:"sax",accept:"image/png, image/jpeg" , class: "asddasd" ,
+makeDaynamic({type : "radio",checked:"true" ,  value:"2018-07-22",id:"red",name:"red",placeholder:"sax",accept:"image/png, image/jpeg" , class: "asddasd" ,
 oninput: "a(event)"} ,{for: "red" , value : "clicked"})
-makeDaynamic({type : "text",checked:"true" , placename:"click it", value:"2018-07-22",id:"green",name:"red",placeholder:"sax",accept:"image/png, image/jpeg" , class: "asddasd" ,
+makeDaynamic({type : "text",checked:"true" ,  value:"2018-07-22",id:"green",name:"red",placeholder:"sax",accept:"image/png, image/jpeg" , class: "asddasd" ,
 oninput: "a(event)"} ,{for: "green" , value : "clicked"})
